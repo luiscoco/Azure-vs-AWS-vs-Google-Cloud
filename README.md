@@ -178,8 +178,6 @@ o	AMIs (Amazon Machine Images), Elastic IPs, Key Pairs
 
 •	AWS Outposts / Dedicated Hosts: On-prem and dedicated infrastructure.
 
-________________________________________
-
 ### 1. Identity & Access Management
 
 •	AWS IAM:
@@ -191,7 +189,6 @@ o	Access Keys, MFA, Identity Federation
 •	AWS Organizations: Multi-account governance.
 
 •	AWS SSO / IAM Identity Center: Centralized access management.
-________________________________________
 
 ### 2. Networking
 
@@ -208,7 +205,6 @@ ________________________________________
 •	AWS Direct Connect: Dedicated on-prem to AWS connection.
 
 •	Amazon Route 53: Scalable DNS service.
-________________________________________
 
 ### 3. Storage
 
@@ -221,8 +217,6 @@ ________________________________________
 •	Amazon EFS (Elastic File System): NFS-based file storage.
 
 •	AWS Backup: Centralized backup solution.
-
-________________________________________
 
 ### 4. App Development & Hosting
 
@@ -238,8 +232,6 @@ ________________________________________
 
 •	AWS Lambda: Serverless functions.
 
-________________________________________
-
 ### 5. Containers & Orchestration
 
 •	Amazon ECS (Elastic Container Service): Container orchestration.
@@ -249,7 +241,6 @@ ________________________________________
 •	AWS Fargate: Serverless containers.
 
 •	Amazon ECR (Elastic Container Registry): Private Docker registry.
-________________________________________
 
 ### 6. Databases & Analytics
 
@@ -270,7 +261,6 @@ ________________________________________
 •	Amazon Athena: SQL queries on S3 data.
 
 •	Amazon Kinesis: Real-time data streaming.
-________________________________________
 
 ### 7. Artificial Intelligence & Machine Learning
 
@@ -285,7 +275,6 @@ ________________________________________
 •	Amazon Transcribe / Polly / Translate: Speech and language services.
 
 •	AWS Lex: Conversational interfaces (chatbots).
-________________________________________
 
 ### 8. Security & Governance
 
@@ -302,7 +291,6 @@ ________________________________________
 •	AWS Control Tower: Govern multi-account environments.
 
 •	AWS Security Hub: Centralized security posture management.
-________________________________________
 
 ### 9. DevOps & CI/CD
 
@@ -315,7 +303,6 @@ ________________________________________
 •	AWS CodePipeline: CI/CD orchestration.
 
 •	AWS Cloud9: Web-based IDE.
-________________________________________
 
 ### 10. Management & Automation
 
@@ -332,7 +319,6 @@ ________________________________________
 •	AWS Trusted Advisor: Best practice recommendations.
 
 •	Cost Explorer & Budgets: Track and optimize spending.
-________________________________________
 
 ### 11. Monitoring, Logging & Diagnostics
 
@@ -343,7 +329,6 @@ ________________________________________
 •	AWS X-Ray: Distributed tracing for applications.
 
 •	AWS Health Dashboard: Personal service health notifications.
-________________________________________
 
 ### 12. Hybrid & Edge
 
@@ -357,11 +342,7 @@ ________________________________________
 
 •	AWS IoT Core: Connect and manage IoT devices.
 
-________________________________________
-
 ## Google Cloud Services
-
-________________________________________
 
 ### 0. GCP Infrastructure & Compute
 
