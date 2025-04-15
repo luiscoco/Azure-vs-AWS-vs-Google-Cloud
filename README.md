@@ -185,182 +185,200 @@ ________________________________________
 
 ## AWS Services Summary
 
-0. AWS Infrastructure & Compute
+### 0. AWS Infrastructure & Compute
+
 •	Regions & Availability Zones (AZs): Physical locations with isolated datacenters for high availability.
+
 •	Local Zones / Wavelength Zones: Low-latency access near end-users/devices.
+
 •	Amazon EC2 (Elastic Compute Cloud): Scalable virtual machines.
+
 o	AMIs (Amazon Machine Images), Elastic IPs, Key Pairs
+
 •	Auto Scaling Groups: Automatic VM scaling.
+
 •	AWS Outposts / Dedicated Hosts: On-prem and dedicated infrastructure.
 
 ________________________________________
 
-1. Identity & Access Management
+### 1. Identity & Access Management
+
 •	AWS IAM:
+
 o	Users, Groups, Roles, Policies
+
 o	Access Keys, MFA, Identity Federation
+
 •	AWS Organizations: Multi-account governance.
+
 •	AWS SSO / IAM Identity Center: Centralized access management.
-
 ________________________________________
 
-2. Networking
+### 2. Networking
+
 •	Amazon VPC (Virtual Private Cloud): Isolated network environments.
-•	Subnets, Route Tables, Internet/NAT Gateways
-•	Security Groups & Network ACLs: Traffic filtering.
-•	VPC Endpoints (Interface & Gateway): Private access to AWS services.
-•	Elastic Load Balancers (ELB): ALB, NLB, GLB.
-•	AWS Direct Connect: Dedicated on-prem to AWS connection.
-•	Amazon Route 53: Scalable DNS service.
 
+•	Subnets, Route Tables, Internet/NAT Gateways
+
+•	Security Groups & Network ACLs: Traffic filtering.
+
+•	VPC Endpoints (Interface & Gateway): Private access to AWS services.
+
+•	Elastic Load Balancers (ELB): ALB, NLB, GLB.
+
+•	AWS Direct Connect: Dedicated on-prem to AWS connection.
+
+•	Amazon Route 53: Scalable DNS service.
 ________________________________________
 
-3. Storage
+### 3. Storage
+
 •	Amazon S3 (Simple Storage Service): Object storage with lifecycle policies and versioning.
+
 •	S3 Glacier / Glacier Deep Archive: Cold storage tiers.
+
 •	Amazon EBS (Elastic Block Store): Block storage for EC2.
+
 •	Amazon EFS (Elastic File System): NFS-based file storage.
+
 •	AWS Backup: Centralized backup solution.
 
 ________________________________________
 
+### 4. App Development & Hosting
 
-
-4. App Development & Hosting
 •	AWS Elastic Beanstalk: Platform-as-a-service for web apps.
+
 •	Amazon Lightsail: Simple app hosting with containers and VMs.
+
 •	AWS Amplify: Frontend & mobile app development.
+
 •	AWS App Runner: Deploy web apps from code or containers.
+
 •	API Gateway: Publish, manage, and secure APIs.
+
 •	AWS Lambda: Serverless functions.
 
 ________________________________________
 
-5. Containers & Orchestration
+### 5. Containers & Orchestration
+
 •	Amazon ECS (Elastic Container Service): Container orchestration.
+
 •	Amazon EKS (Elastic Kubernetes Service): Managed Kubernetes.
+
 •	AWS Fargate: Serverless containers.
+
 •	Amazon ECR (Elastic Container Registry): Private Docker registry.
-
 ________________________________________
 
-6. Databases & Analytics
+### 6. Databases & Analytics
+
 •	Amazon RDS: Managed relational DBs (MySQL, PostgreSQL, Oracle, SQL Server, Aurora).
+
 •	Amazon DynamoDB: NoSQL key-value store.
+
 •	Amazon Redshift: Scalable data warehouse.
+
 •	Amazon ElastiCache: Redis/Memcached caching.
+
 •	Amazon DocumentDB: MongoDB-compatible database.
+
 •	Amazon Timestream / QLDB: Time series / ledger databases.
+
 •	AWS Glue: ETL and data catalog.
+
 •	Amazon Athena: SQL queries on S3 data.
+
 •	Amazon Kinesis: Real-time data streaming.
-
 ________________________________________
 
-7. Artificial Intelligence & Machine Learning
+### 7. Artificial Intelligence & Machine Learning
+
 •	Amazon SageMaker: Build, train, and deploy ML models.
+
 •	Amazon Bedrock: Access foundation models (Anthropic, AI21, etc.).
+
 •	Amazon Comprehend: NLP service.
+
 •	Amazon Rekognition: Image and video analysis.
+
 •	Amazon Transcribe / Polly / Translate: Speech and language services.
+
 •	AWS Lex: Conversational interfaces (chatbots).
-
 ________________________________________
 
+### 8. Security & Governance
 
-
-
-8. Security & Governance
 •	AWS KMS (Key Management Service): Manage cryptographic keys.
-•	AWS Secrets Manager / Parameter Store: Securely store secrets/configs.
-•	AWS Shield & WAF: DDoS protection and web firewall.
-•	Amazon Macie: Discover sensitive data.
-•	AWS Config: Track resource configurations.
-•	AWS Control Tower: Govern multi-account environments.
-•	AWS Security Hub: Centralized security posture management.
 
+•	AWS Secrets Manager / Parameter Store: Securely store secrets/configs.
+
+•	AWS Shield & WAF: DDoS protection and web firewall.
+
+•	Amazon Macie: Discover sensitive data.
+
+•	AWS Config: Track resource configurations.
+
+•	AWS Control Tower: Govern multi-account environments.
+
+•	AWS Security Hub: Centralized security posture management.
 ________________________________________
 
-9. DevOps & CI/CD
+### 9. DevOps & CI/CD
+
 •	AWS CodeCommit: Git-based repositories.
+
 •	AWS CodeBuild: Build and test code.
+
 •	AWS CodeDeploy: Automated deployments.
+
 •	AWS CodePipeline: CI/CD orchestration.
+
 •	AWS Cloud9: Web-based IDE.
 ________________________________________
 
-10. Management & Automation
+### 10. Management & Automation
+
 •	AWS CloudFormation: Infrastructure as code.
+
 •	AWS CDK (Cloud Development Kit): Code-first IaC.
+
 •	AWS Systems Manager: Manage VMs and configurations.
+
 •	AWS CloudTrail: User and API activity logging.
+
 •	AWS CloudWatch: Metrics, logs, alarms, dashboards.
+
 •	AWS Trusted Advisor: Best practice recommendations.
+
 •	Cost Explorer & Budgets: Track and optimize spending.
-
 ________________________________________
 
-11. Monitoring, Logging & Diagnostics
+### 11. Monitoring, Logging & Diagnostics
+
 •	Amazon CloudWatch: Performance metrics and alerting.
-•	CloudWatch Logs & Insights: Log aggregation and analysis.
-•	AWS X-Ray: Distributed tracing for applications.
-•	AWS Health Dashboard: Personal service health notifications.
 
+•	CloudWatch Logs & Insights: Log aggregation and analysis.
+
+•	AWS X-Ray: Distributed tracing for applications.
+
+•	AWS Health Dashboard: Personal service health notifications.
 ________________________________________
 
+### 12. Hybrid & Edge
 
-
-
-
-
-
-
-12. Hybrid & Edge
 •	AWS Outposts: Run AWS services on-prem.
+
 •	AWS Snow Family: Edge computing and data transfer devices.
+
 •	AWS Local Zones: Low-latency compute near users.
+
 •	AWS Wavelength: 5G edge computing with telecom providers.
+
 •	AWS IoT Core: Connect and manage IoT devices.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Google Cloud Services
+## Google Cloud Services
 
 0. GCP Infrastructure & Compute
 •	Regions & Zones: Global infrastructure of datacenters.
