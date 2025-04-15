@@ -358,8 +358,6 @@ o	Access Keys, MFA, Identity Federation
 
 •	Bare Metal Solution: Bare metal servers for legacy apps.
 
-________________________________________
-
 ### 1. Identity & Access Management
 
 •	Cloud IAM: Role-based access control for GCP resources.
@@ -373,7 +371,6 @@ o	Users, Service Accounts, Roles (Primitive, Predefined, Custom)
 •	Identity-Aware Proxy (IAP): Context-aware access to apps and VMs.
 
 •	BeyondCorp Enterprise: Zero-trust access model.
-________________________________________
 
 ### 2. Networking
 
@@ -393,8 +390,6 @@ ________________________________________
 
 •	Network Intelligence Center: Network monitoring and insights.
 
-________________________________________
-
 ### 3. Storage
 
 •	Cloud Storage: Scalable object storage (Standard, Nearline, Coldline, Archive).
@@ -408,7 +403,6 @@ ________________________________________
 •	Transfer Appliance / Storage Transfer Service: Data migration tools.
 
 •	Backup and DR: Centralized backup and disaster recovery.
-________________________________________
 
 ### 4. App Development & Hosting
 
@@ -423,7 +417,6 @@ ________________________________________
 •	Firebase Hosting: Fast and secure web app hosting for mobile & web.
 
 •	Google Domains / Custom Domain Mapping
-________________________________________
 
 ### 5. Containers & Orchestration
 
@@ -436,7 +429,6 @@ ________________________________________
 •	GKE Autopilot: Fully managed Kubernetes with less ops overhead.
 
 •	Container Registry: (legacy) Docker image storage.
-________________________________________
 
 ### 6. Databases & Analytics
 
@@ -453,7 +445,6 @@ ________________________________________
 •	Datastream: Change data capture and replication.
 
 •	Looker (BI): Business intelligence and data visualization.
-________________________________________
 
 ### 7. Artificial Intelligence & Machine Learning
 
@@ -468,7 +459,6 @@ ________________________________________
 •	Generative AI Studio: Large language model-based prompt development.
 
 •	PaLM 2 / Gemini: Foundation models via Vertex AI.
-________________________________________
 
 ### 8. Security & Governance
 
@@ -484,8 +474,6 @@ ________________________________________
 
 •	Policy Intelligence: Insights into IAM policies.
 
-________________________________________
-
 ### 9. DevOps & CI/CD
 
 •	Cloud Build: CI/CD pipeline for building, testing, and deploying.
@@ -499,7 +487,6 @@ ________________________________________
 •	Skaffold, Tekton, and GitHub Actions for GCP
 
 •	Error Reporting & Debugger
-________________________________________
 
 ### 10. Management & Automation
 
@@ -514,7 +501,6 @@ ________________________________________
 •	Workflows: Orchestration of services using YAML-based workflows.
 
 •	Activity Logs & Audit Logs
-________________________________________
 
 ### 11. Monitoring, Logging & Diagnostics
 
@@ -527,7 +513,6 @@ ________________________________________
 •	Operations Suite Dashboards
 
 •	Uptime Checks & Alerting Policies
-________________________________________
 
 ### 12. Hybrid & Edge
 
