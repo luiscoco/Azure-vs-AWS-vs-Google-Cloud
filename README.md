@@ -2,10 +2,7 @@
 
 ## AZURE Services Summary
 
-________________________________________
-
 ### 0. Azure Infrastructure(Availability Zones, Regions, Datacenters, etc)
-________________________________________
 
 ### 1. Identity & Access Management
 
@@ -20,8 +17,6 @@ o	Conditional Access, MFA
 •	Microsoft Entra Permissions Management: Governance across multi-cloud.
 
 •	Azure AD B2C / B2B: Identity for external users.
-
-________________________________________
 
 ### 2. Networking
 
@@ -41,8 +36,6 @@ ________________________________________
 
 •	Traffic Manager: DNS-based load distribution.
 
-________________________________________
-
 ### 3. Storage
 
 •	Blob, File, Queue, Table Storage
@@ -56,7 +49,6 @@ ________________________________________
 •	Shared Access Signatures (SAS)
 
 •	Encryption, Firewall Rules, Private Endpoints
-________________________________________
 
 ### 4. App Development & Hosting
 
@@ -74,8 +66,6 @@ o	Deployment Slots, Custom Domains, SSL
 
 •	Azure API Management: Secure and publish APIs.
 
-________________________________________
-
 ### 5. Containers & Microservices
 
 •	Azure Kubernetes Service (AKS): Managed Kubernetes.
@@ -85,8 +75,6 @@ ________________________________________
 •	Azure Container Registry (ACR): Private image repository.
 
 •	Dapr: Distributed application runtime for microservices.
-
-________________________________________
 
 ### 6. Databases & Analytics
 
@@ -104,8 +92,6 @@ ________________________________________
 
 •	Azure Purview: Data governance and catalog.
 
-________________________________________
-
 ### 7. Artificial Intelligence & Machine Learning
 
 •	Azure OpenAI Service: GPT models (chat, text, image)
@@ -117,8 +103,6 @@ ________________________________________
 •	MCP (Model Context Protocol): Prompt orchestration and memory
 
 •	Microsoft.SemanticKernel & Extensions.AI
-
-________________________________________
 
 ### 8. Security & Governance
 
@@ -134,8 +118,6 @@ ________________________________________
 
 •	Azure Security Center: Posture management
 
-________________________________________
-
 ### 9. DevOps & CI/CD
 
 •	Azure DevOps Services:
@@ -145,7 +127,6 @@ o	Repos, Pipelines, Boards, Artifacts
 •	GitHub Actions for Azure: CI/CD with GitHub
 
 •	Azure Test Plans: Manual and exploratory testing
-________________________________________
 
 ### 10. Management & Automation
 
@@ -161,8 +142,6 @@ ________________________________________
 
 •	Azure Cost Management + Billing
 
-________________________________________
-
 ### 11. Monitoring, Logging & Diagnostics
 
 •	Azure Monitor: End-to-end observability
@@ -173,8 +152,6 @@ ________________________________________
 
 •	Azure Advisor: Recommendations for best practices
 
-________________________________________
-
 ### 12. Hybrid & Edge
 
 •	Azure Stack: On-premise Azure services
@@ -184,11 +161,8 @@ ________________________________________
 •	Azure IoT Hub: Connect and manage IoT devices
 
 •	Azure Sphere: Secure edge devices
-________________________________________
 
 ## AWS Services Summary
-
-________________________________________
 
 ### 0. AWS Infrastructure & Compute
 
