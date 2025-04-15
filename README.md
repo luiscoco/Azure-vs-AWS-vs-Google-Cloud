@@ -3,6 +3,7 @@
 ## AZURE Services Summary
 
 ### 0. Azure Infrastructure(Availability Zones, Regions, Datacenters, etc)
+________________________________________
 
 ### 1. Identity & Access Management
 
@@ -56,101 +57,133 @@ ________________________________________
 ________________________________________
 
 ### 4. App Development & Hosting
+
 •	App Service / Web Apps
+
 o	Deployment Slots, Custom Domains, SSL
+
 •	App Service Environments (ASE): Isolated, high-scale environment.
+
 •	Azure Static Web Apps: Static site hosting + serverless APIs.
+
 •	Azure Logic Apps: Workflow automation.
+
 •	Azure Functions: Serverless compute.
+
 •	Azure API Management: Secure and publish APIs.
 
 ________________________________________
 
-5. Containers & Microservices
+### 5. Containers & Microservices
+
 •	Azure Kubernetes Service (AKS): Managed Kubernetes.
+
 •	Azure Container Instances (ACI): Lightweight containers.
+
 •	Azure Container Registry (ACR): Private image repository.
+
 •	Dapr: Distributed application runtime for microservices.
 
 ________________________________________
 
-6. Databases & Analytics
+### 6. Databases & Analytics
+
 •	Azure SQL Database / SQL Managed Instance
+
 •	Cosmos DB: Globally distributed NoSQL database
+
 •	Azure Database for PostgreSQL, MySQL, MariaDB
+
 •	Azure Synapse Analytics: Data warehouse + big data.
+
 •	Azure Data Factory: Data integration & pipelines.
+
 •	Azure Databricks: Apache Spark analytics.
+
 •	Azure Purview: Data governance and catalog.
+
 ________________________________________
 
-7. Artificial Intelligence & Machine Learning
+### 7. Artificial Intelligence & Machine Learning
+
 •	Azure OpenAI Service: GPT models (chat, text, image)
+
 •	Azure Cognitive Services: Vision, Speech, Language, Search
+
 •	Azure Machine Learning: MLOps, training, and deployment
+
 •	MCP (Model Context Protocol): Prompt orchestration and memory
+
 •	Microsoft.SemanticKernel & Extensions.AI
 
 ________________________________________
 
-8. Security & Governance
+### 8. Security & Governance
+
 •	Microsoft Defender for Cloud: Threat detection and protection
+
 •	Azure Key Vault: Secrets, keys, certificates
+
 •	Azure Policy: Enforce organizational standards
+
 •	Azure Blueprints: Define and repeat compliant environments
+
 •	Azure Monitor: Performance monitoring and alerts
+
 •	Azure Security Center: Posture management
 
 ________________________________________
 
-9. DevOps & CI/CD
+### 9. DevOps & CI/CD
+
 •	Azure DevOps Services:
+
 o	Repos, Pipelines, Boards, Artifacts
+
 •	GitHub Actions for Azure: CI/CD with GitHub
+
 •	Azure Test Plans: Manual and exploratory testing
-
-
-
 ________________________________________
-10. Management & Automation
+
+### 10. Management & Automation
+
 •	Azure Resource Manager (ARM) & ARM templates
+
 •	Azure Bicep: Simplified IaC language
+
 •	Azure Automation: Runbooks and update management
+
 •	Azure Arc: Manage hybrid and multi-cloud resources
+
 •	Azure Lighthouse: Multi-tenant management for service providers
+
 •	Azure Cost Management + Billing
 
 ________________________________________
 
-11. Monitoring, Logging & Diagnostics
+### 11. Monitoring, Logging & Diagnostics
+
 •	Azure Monitor: End-to-end observability
+
 •	Log Analytics: Query and analyze logs (Kusto)
+
 •	Application Insights: App performance monitoring
+
 •	Azure Advisor: Recommendations for best practices
 
 ________________________________________
 
-12. Hybrid & Edge
+### 12. Hybrid & Edge
+
 •	Azure Stack: On-premise Azure services
+
 •	Azure Arc: Extend Azure management to any infrastructure
+
 •	Azure IoT Hub: Connect and manage IoT devices
+
 •	Azure Sphere: Secure edge devices
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-AWS Services Summary
+## AWS Services Summary
 
 0. AWS Infrastructure & Compute
 •	Regions & Availability Zones (AZs): Physical locations with isolated datacenters for high availability.
