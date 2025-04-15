@@ -1,6 +1,10 @@
 # Azure vs AWS vs Google Cloud: A Practical Guide to the Cloud
 
+________________________________________
+
 ## AZURE Services Summary
+
+________________________________________
 
 ### 0. Azure Infrastructure(Availability Zones, Regions, Datacenters, etc)
 ________________________________________
@@ -182,8 +186,11 @@ ________________________________________
 •	Azure IoT Hub: Connect and manage IoT devices
 
 •	Azure Sphere: Secure edge devices
+________________________________________
 
 ## AWS Services Summary
+
+________________________________________
 
 ### 0. AWS Infrastructure & Compute
 
@@ -378,134 +385,205 @@ ________________________________________
 
 •	AWS IoT Core: Connect and manage IoT devices.
 
+________________________________________
+
 ## Google Cloud Services
 
-0. GCP Infrastructure & Compute
+________________________________________
+
+### 0. GCP Infrastructure & Compute
+
 •	Regions & Zones: Global infrastructure of datacenters.
+
 •	Google Compute Engine (GCE): Virtual machines with custom and predefined machine types.
+
 •	Instance Groups: Managed (auto-scaling) and unmanaged VM groups.
+
 •	Live Migration & Preemptible VMs
+
 •	Google Cloud VMware Engine: VMware workloads on GCP.
+
 •	Bare Metal Solution: Bare metal servers for legacy apps.
 
 ________________________________________
 
-1. Identity & Access Management
-•	Cloud IAM: Role-based access control for GCP resources.
-o	Users, Service Accounts, Roles (Primitive, Predefined, Custom)
-•	Cloud Identity: Central identity management.
-•	Workforce Identity Federation: External identity provider integration.
-•	Identity-Aware Proxy (IAP): Context-aware access to apps and VMs.
-•	BeyondCorp Enterprise: Zero-trust access model.
+### 1. Identity & Access Management
 
+•	Cloud IAM: Role-based access control for GCP resources.
+
+o	Users, Service Accounts, Roles (Primitive, Predefined, Custom)
+
+•	Cloud Identity: Central identity management.
+
+•	Workforce Identity Federation: External identity provider integration.
+
+•	Identity-Aware Proxy (IAP): Context-aware access to apps and VMs.
+
+•	BeyondCorp Enterprise: Zero-trust access model.
 ________________________________________
 
-2. Networking
+### 2. Networking
+
 •	VPC (Virtual Private Cloud): Global network with subnets, routing.
+
 •	Firewall Rules, Routes, NAT Gateway
+
 •	Private Google Access: Connect to Google APIs via internal IPs.
+
 •	Cloud Load Balancing: Global and regional load balancers (HTTP(S), TCP/UDP, SSL).
+
 •	Cloud CDN: Content delivery network.
+
 •	Cloud Interconnect & VPN: Hybrid connectivity.
+
 •	Cloud DNS: Scalable domain name system service.
+
 •	Network Intelligence Center: Network monitoring and insights.
 
 ________________________________________
 
-3. Storage
+### 3. Storage
+
 •	Cloud Storage: Scalable object storage (Standard, Nearline, Coldline, Archive).
+
 •	Persistent Disks: Block storage for VMs.
+
 •	Filestore: Managed NFS-based file storage.
+
 •	Local SSD: High-speed ephemeral disks.
+
 •	Transfer Appliance / Storage Transfer Service: Data migration tools.
+
 •	Backup and DR: Centralized backup and disaster recovery.
 ________________________________________
 
+### 4. App Development & Hosting
 
-4. App Development & Hosting
 •	App Engine: Fully managed PaaS for app hosting (Standard & Flexible).
+
 •	Cloud Run: Serverless container execution.
+
 •	Cloud Functions: Event-driven serverless functions.
+
 •	Cloud Endpoints: API management for GCP services.
+
 •	Firebase Hosting: Fast and secure web app hosting for mobile & web.
+
 •	Google Domains / Custom Domain Mapping
-
 ________________________________________
 
-5. Containers & Orchestration
+### 5. Containers & Orchestration
+
 •	Google Kubernetes Engine (GKE): Managed Kubernetes service.
+
 •	Cloud Run: Serverless containers with scale-to-zero.
+
 •	Artifact Registry: Secure container image and language package storage.
+
 •	GKE Autopilot: Fully managed Kubernetes with less ops overhead.
+
 •	Container Registry: (legacy) Docker image storage.
-
 ________________________________________
 
-6. Databases & Analytics
+### 6. Databases & Analytics
+
 •	Cloud SQL: Managed MySQL, PostgreSQL, SQL Server.
+
 •	Cloud Spanner: Global, horizontally scalable relational DB.
+
 •	BigQuery: Serverless data warehouse with SQL and ML support.
+
 •	Firestore / Firebase Realtime DB: NoSQL document databases.
+
 •	Cloud Bigtable: Wide-column NoSQL DB for big data.
+
 •	Datastream: Change data capture and replication.
+
 •	Looker (BI): Business intelligence and data visualization.
-
 ________________________________________
 
-7. Artificial Intelligence & Machine Learning
+### 7. Artificial Intelligence & Machine Learning
+
 •	Vertex AI: End-to-end ML platform (training, deployment, monitoring).
+
 •	AutoML: No-code model training for vision, text, and tables.
+
 •	Dialogflow: Conversational AI / chatbot platform.
+
 •	Cloud Vision, Natural Language, Speech-to-Text, Translate, Text-to-Speech
+
 •	Generative AI Studio: Large language model-based prompt development.
+
 •	PaLM 2 / Gemini: Foundation models via Vertex AI.
-
 ________________________________________
 
-8. Security & Governance
+### 8. Security & Governance
+
 •	Cloud Key Management (KMS): Create and manage encryption keys.
+
 •	Secret Manager: Store and access secrets securely.
+
 •	Cloud Armor: DDoS protection and WAF.
+
 •	Security Command Center: Threat detection and posture management.
+
 •	Access Transparency / Access Approval: Visibility and control of Google admin actions.
+
 •	Policy Intelligence: Insights into IAM policies.
-9. DevOps & CI/CD
+
+________________________________________
+
+### 9. DevOps & CI/CD
+
 •	Cloud Build: CI/CD pipeline for building, testing, and deploying.
+
 •	Cloud Deploy: GKE and Cloud Run deployment automation.
+
 •	Artifact Registry: Store and manage build artifacts.
+
 •	Cloud Source Repositories: Private Git repositories.
+
 •	Skaffold, Tekton, and GitHub Actions for GCP
+
 •	Error Reporting & Debugger
-
 ________________________________________
 
-10. Management & Automation
+### 10. Management & Automation
+
 •	Cloud Deployment Manager: Infrastructure as code (YAML-based).
+
 •	Terraform on GCP: IaC with community and official modules.
+
 •	Cloud Scheduler: Cron job scheduling.
+
 •	Cloud Tasks: Asynchronous task execution.
+
 •	Workflows: Orchestration of services using YAML-based workflows.
+
 •	Activity Logs & Audit Logs
-
 ________________________________________
 
-11. Monitoring, Logging & Diagnostics
+### 11. Monitoring, Logging & Diagnostics
+
 •	Cloud Monitoring (formerly Stackdriver): System and app metrics.
-•	Cloud Logging: Centralized log collection and querying.
-•	Error Reporting, Trace, Debugger, Profiler
-•	Operations Suite Dashboards
-•	Uptime Checks & Alerting Policies
 
+•	Cloud Logging: Centralized log collection and querying.
+
+•	Error Reporting, Trace, Debugger, Profiler
+
+•	Operations Suite Dashboards
+
+•	Uptime Checks & Alerting Policies
 ________________________________________
 
-12. Hybrid & Edge
+### 12. Hybrid & Edge
+
 •	Anthos: Hybrid and multi-cloud Kubernetes management.
+
 •	Google Distributed Cloud (GDC): Edge and on-prem GCP services.
+
 •	Cloud Interconnect: Dedicated network connection.
+
 •	Edge TPU: AI inferencing on edge devices.
+
 •	IoT Core (deprecated, alternatives available via 3rd party or Anthos)
-
-
-
-
-
