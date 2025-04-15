@@ -1,7 +1,5 @@
 # Azure vs AWS vs Google Cloud: A Practical Guide to the Cloud
 
-________________________________________
-
 ## AZURE Services Summary
 
 ________________________________________
